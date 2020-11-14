@@ -34,17 +34,22 @@ as regards to Insert, Update, Delete and Select etc.
 
 The php Files that houses the Quickbase Configurable credentials includes 
 
-1.) quickbase_pass.php : This is the first script to be updated. Here you will enter your Quickbase username and password to get
+# 1.) quickbase_pass.php : 
+This is the first script to be updated. Here you will enter your Quickbase username and password to get
 auth_ticket which you will be used later in the files below.
 
-2.) Quickbase_token.php: Houses your quickbase access token, app_token, auth_ticket and so on.
+# 2.) Quickbase_token.php:
+Houses your quickbase access token, app_token, auth_ticket and so on.
 
-3.) Quickbase_token1.php: Houses your quickbase access token etc.
+# 3.) Quickbase_token1.php:
+Houses your quickbase access token etc.
 
-4.)Quikbase_table: Houses all the table ID's used in the application.
+# 4.)Quikbase_table.php:
+Houses all the table ID's used in the application.
 
 
-5.)Signup_action.php: This is just for informations. Here you dont need to edit this two line of code below unless you want to replace
+# 5.)Signup_action.php:
+This is just for informations. Here you dont need to edit this two line of code below unless you want to replace
  your own quickbase domain or possibly change the users table Id
 
 $users_table_db='users table id goes here';
